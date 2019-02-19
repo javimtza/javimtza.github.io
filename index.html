@@ -1,8 +1,9 @@
 ---
 layout: default
-title: A sleek, modern Jekyll theme for personal websites.
-description: A sleek, modern Jekyll theme for personal websites. Personal is the perfect theme for developers, designers and other creatives.
+title: Welcome to my portfolio
+description: Welcome to my portfolio. Data Scientist | Mathematician | Motorcycle Enthusiast
 featured_image: /images/demo/home.jpg
+beer_image: /images/demo/BeerBottles.jpg
 ---
 
 <section class="hero">
@@ -13,9 +14,8 @@ featured_image: /images/demo/home.jpg
 
 	<div class="wrap">
 
-		<h1>A sleek, modern Jekyll theme
-		for personal websites</h1>
-		<p>Personal is the perfect theme for developers, designers and other creatives.</p>
+		<h1>Welcome to my portfolio</h1>
+		<p>Data Scientist | Mathematician | Motorcycle Enthusiast.</p>
 
 		{% include socials.html %}
 
@@ -32,21 +32,69 @@ featured_image: /images/demo/home.jpg
 		<article class="post">
 
 			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+				<div class="post__image" style="background-image: url({{ page.beer_image }})"></div>
 			</div>
 
 			<div class="post__content-wrap">
 				<div class="post__content">
-					<h2 class="post__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
-					<p class="post__subtitle">{{ project.subtitle }}</p>
+					<h2 class="post__title"><a href="https://github.com/javimtza/DSI-Capstone">Beer Label Recognizer and Recommender</a></h2>
+					<p class="post__subtitle">General Assembly Capstone</p>
 					<p class="post__description">{{ project.description }}</p>
 				</div>
 			</div>
 
 		</article>
+		
+		<article class="post">
 
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="https://github.com/javimtza/disaster-tweet-classification">Disaster Tweet Classification</a></h2>
+					<p class="post__subtitle">General Assembly Client Project</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+		
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="https://github.com/javimtza/reddit-nlp-project">Classifying News Titles Using NLP</a></h2>
+					<p class="post__subtitle">General Assembly Project</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+		
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="https://github.com/javimtza/ames-housing-project">Predicting House Prices in Ames, Iowa</a></h2>
+					<p class="post__subtitle">General Assembly Project</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+		
 		{% endfor %}
 
 	</div>
-
+	
 </section>
