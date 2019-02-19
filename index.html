@@ -28,7 +28,7 @@ featured_image: /images/demo/home.jpg
 
 		{% for project in site.projects reversed %}
 
-		<article class="post"  href="https://github.com/javimtza/DSI-Capstone">
+		<article class="post">
 
 			<div class="post__image-wrap">
 				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
@@ -52,7 +52,23 @@ featured_image: /images/demo/home.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
-					<h2 class="post__title"><a href="https://github.com/javimtza/DSI-Capstone">Disaster Tweet Classification</a></h2>
+					<h2 class="post__title"><a href="https://github.com/javimtza/disaster-tweet-classification">Disaster Tweet Classification</a></h2>
+					<p class="post__subtitle">General Assembly Client Project</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+		
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="https://github.com/javimtza/reddit-nlp-project">Classifying News Titles Using NLP</a></h2>
 					<p class="post__subtitle">General Assembly Project</p>
 					<p class="post__description">{{ project.description }}</p>
 				</div>
@@ -68,23 +84,7 @@ featured_image: /images/demo/home.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
-					<h2 class="post__title"><a href="{{https://github.com/javimtza/DSI-Capstone}}">Classifying News Titles Using NLP</a></h2>
-					<p class="post__subtitle">General Assembly Project</p>
-					<p class="post__description">{{ project.description }}</p>
-				</div>
-			</div>
-
-		</article>
-		
-		<article class="post">
-
-			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
-			</div>
-
-			<div class="post__content-wrap">
-				<div class="post__content">
-					<h2 class="post__title"><a href="{{https://github.com/javimtza/DSI-Capstone}}">Predicting House Prices in Ames, Iowa</a></h2>
+					<h2 class="post__title"><a href="https://github.com/javimtza/ames-housing-project">Predicting House Prices in Ames, Iowa</a></h2>
 					<p class="post__subtitle">General Assembly Project</p>
 					<p class="post__description">{{ project.description }}</p>
 				</div>
