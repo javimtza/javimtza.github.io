@@ -6,3 +6,12 @@ As we can see in Matt Stile's Blogpost, birthdays do not follow an even distribu
 
 ### Theory
 We will begin by stating some simple probability facts. Given our knowledge, we know that there is 1/365 ≈ 0.27% chance of any two people having the same birthday (1/366 if both were born on a leap year). By the rule of subtraction, we find that the probability of two people **not** sharing a birthday is 1 - (1/365) = 364/365 ≈ 99.73%.
+
+
+| Number Of Dice To Roll Even | Multiplication | Probability |
+|----------------|----------------|-------------|
+| 1              | 1/2        | 1/2         |
+| 2              | 1/2 * 1/2 = (1/2)<sup>2</sup>        | 1/4         |
+| 3              | 1/2 * 1/2 * 1/2 = (1/2)<sup>3</sup>        | 1/8         |
+|...             |...             |...          |
+| n              | 1/2 * 1/2 * ... = (1/2)<sup>n</sup>             |1/2<sup>n</sup>          |
